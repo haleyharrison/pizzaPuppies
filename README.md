@@ -22,7 +22,7 @@ simple pizza cost calculation!
 ### Legal
 
 
-Copyright (c) 2015 Juliana Suzuki
+Copyright (c) 2015 Haley Harrison, Juliana Suzuki
 
 This software is licensed under the MIT license.
 
