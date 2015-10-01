@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Pizza</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to pizza puppies!</h1>
+<img src="http://mydisguises.com/wp-content/uploads/2012/01/pizza-delivery-dog.jpg">
+<h5>our cutest driver is on his way!</h5>
+
+<br><br>
+      <form id="pizza">
+      <div class="row border">
+
+        <div class="col-md-3">
+          <h3>sauces:</h3>
+          <input type="checkbox" name="toppings" class="toppings" value="buffalo"> buffalo<br>
+          <input type="checkbox" name="toppings" class="toppings" value="marinara"> marinara<br>
+          <input type="checkbox" name="toppings" class="toppings" value="alfredo"> alfredo<br>
+          <input type="checkbox" name="toppings" class="toppings" value="garlic_+_olive_oil"> garlic + olive oil<br>
+          <input type="checkbox" name="toppings" class="toppings" value="bbq"> bbq<br>
+          <br>
+        </div>
+
+        <div class="col-md-3">
+          <h3>cheeses:</h3>
+          <input type="checkbox" name="toppings" class="toppings" value="pecorino"> pecorino<br>
+          <input type="checkbox" name="toppings" class="toppings" value="cotswald"> cotswald<br>
+          <input type="checkbox" name="toppings" class="toppings" value="mozzarella"> mozzarella<br>
+          <input type="checkbox" name="toppings" class="toppings" value="parmesan"> parmesan<br>
+          <input type="checkbox" name="toppings" class="toppings" value="feta"> feta<br>
+          <input type="checkbox" name="toppings" class="toppings" value="goat_cheese"> goat cheese<br>
+          <br>
+        </div>
+
+        <div class="col-md-3">
+          <h3>meats:</h3>
+          <input type="checkbox" name="toppings" class="toppings" value="pepperoni"> pepperoni<br>
+          <input type="checkbox" name="toppings" class="toppings" value="sausage"> sausage<br>
+          <input type="checkbox" name="toppings" class="toppings" value="bacon"> bacon<br>
+          <input type="checkbox" name="toppings" class="toppings" value="proscuitto"> proscuitto<br>
+          <input type="checkbox" name="toppings" class="toppings" value="ham"> ham<br>
+          <input type="checkbox" name="toppings" class="toppings" value="meatballs"> meatballs<br>
+          <br>
+        </div>
+
+        <div class="col-md-3">
+          <h3>veggies:</h3>
+          <input type="checkbox" name="toppings" class="toppings" value="black_olives"> black olives<br>
+          <input type="checkbox" name="toppings" class="toppings" value="red_peppers"> red peppers<br>
+          <input type="checkbox" name="toppings" class="toppings" value="garlic"> garlic<br>
+          <input type="checkbox" name="toppings" class="toppings" value="tomatoes"> tomatoes<br>
+          <input type="checkbox" name="toppings" class="toppings" value="jalapenos"> jalapenos<br>
+          <input type="checkbox" name="toppings" class="toppings" value="red_onions"> red onions<br>
+          <input type="checkbox" name="toppings" class="toppings" value="pepperoncinis"> pepperoncinis<br>
+          <input type="checkbox" name="toppings" class="toppings" value="banana_peppers"> banana peppers<br>
+          <br>
+        </div>
+        <br>
+    </div>
+    <div class="row">
+        <h2>pick a size:</h2>
+        <div class="form-group">
+          <input type="radio" name="size" class="size" value="small"> small<br>
+          <input type="radio" name="size" class="size" value="medium"> medium<br>
+          <input type="radio" name="size" class="size" value="large"> large<br>
+        </div>
+
+        <h2>how many?</h2>
+        <div class="form-group">
+          <input type=number name="pizza_quantity" id="pizza_quantity">
+        </div>
+
+        <button type="submit" class="btn">place order</button>
+
+    </div>
+      </form>
+
+      <hr />
+
+      <div id="result">
+        <h2>your total is: <span class="total"></span></h2>
+      </div>
+    </div>
+
+  </body>
+</html>
